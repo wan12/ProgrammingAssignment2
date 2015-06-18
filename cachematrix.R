@@ -26,7 +26,7 @@ cacheSolve <- function(x, ...) {
         inv = x$getinv()
 ## if the inverse of the matrix has already been calculated
         if (!is.null(inv)){
-##get it from the cache and skips the computation. 
+##get it from the cache and skip the computation. 
                 message("getting cached data")
                 return(inv)
         }
